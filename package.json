@@ -1,0 +1,35 @@
+{
+  "name": "is-azure-function",
+  "version": "0.0.0",
+  "description": "Detect if your code is running in an Azure Function",
+  "license": "MIT",
+  "repository": "SamVerschueren/is-azure-function",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "azure",
+    "function",
+    "azurefunction",
+    "serverless",
+    "microsoft",
+    "detect",
+    "check",
+    "is"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
